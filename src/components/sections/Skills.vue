@@ -5,48 +5,48 @@ import skillGroups from "../../data/skills.js";
 
 const orbitIcons = [
   {
-    icon: "vuedotjs",
-    color: "4FC08D",
-    label: "Vue.js",
-    style: "top: 6%; left: 18%;",
-  },
-  {
     icon: "tailwindcss",
     color: "06B6D4",
     label: "Tailwind CSS",
-    style: "top: 0%; left: 44%;",
+    style: "top: 8%; left: 50%;",
   },
   {
     icon: "html5",
     color: "E34F26",
     label: "HTML",
-    style: "top: 6%; left: 70%;",
+    style: "top: 20.3%; left: 79.7%;",
   },
   {
     icon: "javascript",
     color: "F7DF1E",
     label: "JavaScript",
-    style: "top: 38%; left: 86%;",
+    style: "top: 50%; left: 92%;",
   },
   {
     icon: "photoshop",
     color: "31A8FF",
     label: "Photoshop",
-    style: "top: 70%; left: 70%;",
+    style: "top: 79.7%; left: 79.7%;",
   },
   {
     icon: "figma",
     color: "F24E1E",
     label: "Figma",
-    style: "top: 78%; left: 44%;",
+    style: "top: 92%; left: 50%;",
   },
   {
     icon: "github",
     color: "181717",
     label: "GitHub",
-    style: "top: 70%; left: 18%;",
+    style: "top: 79.7%; left: 20.3%;",
   },
-  { icon: "css", color: "1572B6", label: "CSS", style: "top: 38%; left: 2%;" },
+  { icon: "css", color: "1572B6", label: "CSS", style: "top: 50%; left: 8%;" },
+  {
+    icon: "vuedotjs",
+    color: "4FC08D",
+    label: "Vue.js",
+    style: "top: 20.3%; left: 20.3%;",
+  },
 ];
 
 const techStack = [
