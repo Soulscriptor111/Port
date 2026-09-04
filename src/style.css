@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: #f7f9fc;
+  --color-surface: #ffffff;
+  --color-border: #e2e8f0;
+  --color-text: #0a0f1d;
+  --color-muted: #5b6b82;
+  --color-cyan: #15803d;
+  --color-teal: #16a34a;
+}
+
+.dark {
+  --color-bg: #0a0f1d;
+  --color-surface: #131b2e;
+  --color-border: #222f47;
+  --color-text: #f4f6fa;
+  --color-muted: #8a99ad;
+  --color-cyan: #34d399;
+  --color-teal: #6ee7b7;
+}
+
+@layer base {
+  body {
+    @apply bg-bg text-muted font-sans antialiased transition-colors duration-300;
+    scroll-behavior: smooth;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-text font-bold tracking-tight;
+  }
+  button,
+  a {
+    -webkit-tap-highlight-color: transparent;
+  }
+  button {
+    outline: none;
+  }
+}
