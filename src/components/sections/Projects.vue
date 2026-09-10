@@ -18,7 +18,7 @@ import projects from "../../data/projects.js";
     </p>
     <p class="italic text-teal text-sm mb-10">Explore my work →</p>
 
-    <div class="grid sm:grid-cols-2 gap-6">
+    <div class="grid grid-cols-3 sm:grid-cols-2 gap-6">
       <Card
         v-for="project in projects"
         :key="project.slug"
