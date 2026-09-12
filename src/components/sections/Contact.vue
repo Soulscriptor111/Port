@@ -2,7 +2,7 @@
 import { ref } from "vue";
 import socialLinks from "../../data/media.js";
 
-const FORMSPREE_ENDPOINT = https://formspree.io/f/xrpzazep;
+const FORMSPREE_ENDPOINT = "https://formspree.io/f/xrpzazep";
 
 const form = ref({ name: "", email: "", subject: "", message: "" });
 const status = ref("idle");
