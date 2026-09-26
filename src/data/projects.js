@@ -5,7 +5,7 @@ const projects = [
     description:
       "This site — an evidence-based portfolio built to prove skills through real projects and verified stories, not just claims.",
     tags: ["Vue.js", "Tailwind CSS"],
-    screenshoot: "",
+    screenshoot: "/screenshots/port.png",
     demoUrl: "https://ala1n-rw.vercel.app",
     repoUrl: "https://github.com/Soulscriptor111/Port",
     role: "Sole Developer & Designer",
@@ -16,7 +16,7 @@ const projects = [
     title: "Retrosphere App",
     description: "A synched lyrics generator and visualizer",
     tags: ["Vue.js", "Tailwind CSS", "API"],
-    screenshoot: "",
+    screenshoot: "/screenshots/retrosphere.png",
     demoUrl: "https://retrosphere-bay.vercel.app",
     repoUrl: "https://github.com/Soulscriptor111/Retrosphere",
     role: "Sole Developer & Designer",
@@ -27,7 +27,7 @@ const projects = [
     description:
       "A multi-page site for College APPEC TSS — home, about, gallery, and contact pages with a navy-and-gold theme.",
     tags: ["HTML", "CSS", "JavaScript"],
-    screenshoot: "",
+    screenshoot: "/screenshots/college.png",
     demoUrl: "https://college-appec-tss.vercel.app/",
     repoUrl: "https://github.com/Soulscriptor111/college-appec-tss",
     role: "Frontend Developer",
