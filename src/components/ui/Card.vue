@@ -28,6 +28,7 @@ defineProps({
         v-if="screenshoot"
         :src="screenshoot"
         :alt="title"
+        loading="lazy"
         class="w-full h-full object-cover"
       />
       <div
